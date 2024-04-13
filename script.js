@@ -30,6 +30,13 @@ button.addEventListener("click", () => {
     for(let i = 0;i<numSquare;i++){
         body.appendChild(gridsquare.cloneNode(true));
     }
+
+    const l = document.querySelectorAll(".grid");
+    l.forEach((l) => {
+    l.addEventListener("mouseover",function (e) {
+        e.target.style.background = "blue";
+    })
+})
     console.log(numSquare);
 
 })
