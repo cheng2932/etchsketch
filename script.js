@@ -14,11 +14,11 @@ l.forEach((l) => {
     })
 })
 
-l.forEach((l) => {
+/* l.forEach((l) => {
     l.addEventListener("mouseleave",function (e) {
         e.target.style.background = "black";
     })
-})
+}) */
     
 
 
